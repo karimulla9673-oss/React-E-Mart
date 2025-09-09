@@ -17,12 +17,7 @@ const Navbar = () => {
   </div>
 </Link>
 
-        <div className="search">
-          <input type="text" placeholder="Search..." />
-        </div>
-        <div className="user">
-          <div className="user-detail">SignIN/SignUp</div>
-        </div>
+        
           <Link to= '/cart'>
           <div className="cart">Cart
           <span>
@@ -64,17 +59,7 @@ const Navbar = () => {
           <Link to="/fridge" className="custom-link">
             <li>Fridge</li>
           </Link>
-          <Link to="/" className="custom-link">
-            <li>Books</li>
-          </Link>
-
-          <Link to="/" className="custom-link">
-            <li>Speakers</li>
-          </Link>
-
-          <Link to="/" className="custom-link">
-            <li>TV's</li>
-          </Link>
+          
 
           <Link to="/ac" className="custom-link">
             <li>AC</li>
